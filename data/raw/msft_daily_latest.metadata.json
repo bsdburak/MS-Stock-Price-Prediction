@@ -1,0 +1,22 @@
+{
+  "ticker": "MSFT",
+  "source": "Yahoo Finance via yfinance",
+  "interval": "1d",
+  "auto_adjust": true,
+  "start_inclusive": "2010-01-01",
+  "end_exclusive": "2026-07-15",
+  "first_observation": "2010-01-04",
+  "last_observation": "2026-07-14",
+  "rows": 4156,
+  "columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
+  ],
+  "downloaded_at_utc": "2026-07-15T12:23:05+00:00",
+  "csv_file": "msft_daily_latest.csv",
+  "csv_bytes": 392804,
+  "csv_sha256": "e402118bc3b72564ebc266b84802263a77a22f5a5488f5e1a6fb796976d6f498"
+}

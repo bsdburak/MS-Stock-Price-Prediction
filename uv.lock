@@ -971,7 +971,7 @@ wheels = [
 [[package]]
 name = "ms-stock-price-prediction"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "jupyterlab" },

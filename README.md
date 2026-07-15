@@ -26,6 +26,17 @@ uv run python -c "import torch; print(torch.__version__)"
 uv run jupyter lab
 ```
 
+## Veriyi indirme
+
+```powershell
+uv run download-msft-data
+```
+
+Komut, 2010-01-01 tarihinden son tamamlanmis islem gunune kadar olan gunluk ve otomatik
+duzeltilmis MSFT verisini `data/raw/` altina kaydeder. Calistirilan gun, yfinance `end`
+parametresi olarak verilir ve haric tutulur; boylece devam eden seans verisi kullanilmaz.
+Olusan metadata dosyasi veri tarih araligini, satir sayisini ve SHA-256 ozetini kaydeder.
+
 ## Testler
 
 ```powershell
