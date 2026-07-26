@@ -139,7 +139,6 @@ Notebook'lar çalıştırılmış çıktılarıyla birlikte depoda tutulur. Son 
 │   ├── preprocessing.py    # Tekrar kullanılabilir zaman serisi veri hattı
 │   └── training.py         # Eğitim ve değerlendirme yardımcıları
 ├── tests/                  # Veri, model, ön işleme ve eğitim testleri
-├── PROJECT_PLAN.md         # Proje kapsamı ve çalışma planı
 ├── pyproject.toml          # Bağımlılıklar ve araç ayarları
 └── uv.lock                 # Kilitlenmiş ortam
 ```
